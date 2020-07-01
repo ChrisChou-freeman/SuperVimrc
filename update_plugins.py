@@ -16,13 +16,10 @@ from os import path
 # --- Globals ----------------------------------------------
 PLUGINS = """
 auto-pairs https://github.com/jiangmiao/auto-pairs
-ale https://github.com/w0rp/ale
 vim-yankstack https://github.com/maxbrunsfeld/vim-yankstack
-ack.vim https://github.com/mileszs/ack.vim
 bufexplorer https://github.com/jlanzarotta/bufexplorer
 ctrlp.vim https://github.com/ctrlpvim/ctrlp.vim
 mayansmoke https://github.com/vim-scripts/mayansmoke
-nerdtree https://github.com/scrooloose/nerdtree
 nginx.vim https://github.com/chr4/nginx.vim
 tlib https://github.com/vim-scripts/tlib
 vim-addon-mw-utils https://github.com/MarcWeber/vim-addon-mw-utils
@@ -54,7 +51,6 @@ vim-python-pep8-indent https://github.com/Vimjas/vim-python-pep8-indent
 """.strip()
 
 """ droped plugin
-vim-fugitive https://github.com/tpope/vim-fugitive
 vim-coffee-script https://github.com/kchmck/vim-coffee-script
 vim-bundle-mako https://github.com/sophacles/vim-bundle-mako
 rust.vim https://github.com/rust-lang/rust.vim
