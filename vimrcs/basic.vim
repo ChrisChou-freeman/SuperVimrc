@@ -3,7 +3,7 @@
 "       Amir Salihefendic — @amix3k
 "
 " Awesome_version:
-"       Get this config, nice color schemes and lots of plugins!
+"       Get this config and lots of plugins!
 "
 "       Install the awesome version from:
 "
@@ -12,7 +12,7 @@
 " Sections:
 "    -> General
 "    -> VIM user interface
-"    -> Colors and Fonts
+"    -> Fonts
 "    -> Files and backups
 "    -> Text, tab and indent related
 "    -> Visual mode related
@@ -135,30 +135,10 @@ set foldcolumn=1
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Colors and Fonts
+" => Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Enable syntax highlighting
 syntax enable 
-
-" Enable 256 colors palette in Gnome Terminal
-if $COLORTERM == 'gnome-terminal'
-    set t_Co=256
-endif
-
-try
-    colorscheme desert 
-catch
-endtry
-
-set background=dark
-
-" Set extra options when running in GUI mode
-if has("gui_running")
-    set guioptions-=T
-    set guioptions-=e
-    set t_Co=256
-    set guitablabel=%M\ %t
-endif
 
 " Set utf8 as standard encoding and en_US as the standard language
 set encoding=utf8
