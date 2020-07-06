@@ -1,8 +1,15 @@
 call plug#begin('~/.vim/plugged')
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => javascript auto complete plug 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Plug 'Shougo/deoplete.nvim'
 Plug 'roxma/nvim-yarp'
 Plug 'roxma/vim-hug-neovim-rpc'
 Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => other useful plug 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Plug 'tpope/vim-fugitive'
 Plug 'preservim/nerdtree'
 Plug 'mileszs/ack.vim'

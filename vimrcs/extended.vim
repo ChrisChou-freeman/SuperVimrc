@@ -28,7 +28,7 @@ set guioptions-=l
 set guioptions-=L
 
 " Colorscheme
-colorscheme mayansmoke
+colorscheme peaksea
 " colorscheme solarized 
 set background=light
 
