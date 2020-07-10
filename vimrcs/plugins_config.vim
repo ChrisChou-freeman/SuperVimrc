@@ -1,6 +1,6 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Important:
-"       This requires that you install https://github.com/amix/vimrc !
+" 
+" Installed Plugs main config file
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 

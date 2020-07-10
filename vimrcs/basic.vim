@@ -2,12 +2,6 @@
 " Maintainer: 
 "       Amir Salihefendic — @amix3k
 "
-" Awesome_version:
-"       Get this config and lots of plugins!
-"
-"       Install the awesome version from:
-"
-"           https://github.com/amix/vimrc
 "
 " Sections:
 "    -> General
