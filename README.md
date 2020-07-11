@@ -6,7 +6,7 @@ How the look
 
 ![vimrcLooks](https://chrischou2018.github.io/img/lib/vimrc.png)
 
-Step
+Deploy Step
 -------
 
 1. git clone this repository to your HOME/.vim_runtime
@@ -15,7 +15,7 @@ Step
 4. open vim
 5. run `:PlugInstall` 
 
-Deploy Step
+Start
 ------------
 
 1. `cd /path/yourProject/`
