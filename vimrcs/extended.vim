@@ -21,9 +21,9 @@ set guioptions-=l
 set guioptions-=L
 
 " Colorscheme
-colorscheme peaksea
+colorscheme peaksea 
 " colorscheme solarized 
-set background=light
+set background=dark
 
 " Enable 256 colors palette in Gnome Terminal
 if $COLORTERM == 'gnome-terminal'

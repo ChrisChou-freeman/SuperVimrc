@@ -1,6 +1,11 @@
 custom Node IDE by VIM
 ==============================
 
+How the look
+-------------
+
+![vimrcLooks](https://chrischou2018.github.io/img/lib/vimrc.png)
+
 Step
 -------
 
@@ -8,7 +13,12 @@ Step
 2. run `install_awesome_vimrc.sh`
 3. install [vim-plug](https://github.com/junegunn/vim-plug)
 4. open vim
-5. run :PlugInstall
+5. run `:PlugInstall` 
+
+Deploy Step
+------------
+
+1. `cd /path/yourProject/`
+2. just run `vim`
 
 down...
-
