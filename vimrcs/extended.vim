@@ -21,7 +21,8 @@ set guioptions-=l
 set guioptions-=L
 
 " Colorscheme
-colorscheme peaksea 
+" colorscheme peaksea 
+colorscheme gruvbox
 " colorscheme solarized 
 set background=dark
 
