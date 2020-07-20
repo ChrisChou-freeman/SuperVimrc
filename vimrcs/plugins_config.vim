@@ -119,30 +119,6 @@ au FileType mako vmap Si S"i${ _(<esc>2f"a) }<esc>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => lightline
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" let g:lightline = {
-"       \ 'colorscheme': 'wombat',
-"       \ 'active': {
-"       \   'left': [ ['mode', 'paste'],
-"       \             ['fugitive', 'readonly', 'filename', 'modified'] ],
-"       \   'right': [ [ 'lineinfo' ], ['percent'] ]
-"       \ },
-"       \ 'component': {
-"       \   'readonly': '%{&filetype=="help"?"":&readonly?"🔒":""}',
-"       \   'modified': '%{&filetype=="help"?"":&modified?"+":&modifiable?"":"-"}',
-"       \   'fugitive': '%{exists("*FugitiveHead")?FugitiveHead():""}'
-"       \ },
-"       \ 'component_visible_condition': {
-"       \   'readonly': '(&filetype!="help"&& &readonly)',
-"       \   'modified': '(&filetype!="help"&&(&modified||!&modifiable))',
-"       \   'fugitive': '(exists("*FugitiveHead") && ""!=FugitiveHead())'
-"       \ },
-"       \ 'separator': { 'left': ' ', 'right': ' ' },
-"       \ 'subseparator': { 'left': ' ', 'right': ' ' }
-"       \ }
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Vimroom
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:goyo_width=100
@@ -157,7 +133,6 @@ nnoremap <silent> <leader>z :Goyo<cr>
 let g:ale_linters = {
 \   'javascript': ['jshint', 'eslint'],
 \   'python': ['flake8'],
-\   'go': ['go', 'golint', 'errcheck']
 \}
 
 nmap <silent> <leader>a <Plug>(ale_next_wrap)
@@ -178,7 +153,7 @@ nnoremap <silent> <leader>d :GitGutterToggle<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => set auto completion with deplete
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:deoplete#enable_at_startup = 1
 let g:deoplete#sources#ternjs#types = 1
 let g:deoplete#sources#ternjs#depths = 1
-let g:deoplete#enable_at_startup = 1
 let g:neosnippet#enable_completed_snippet = 1
