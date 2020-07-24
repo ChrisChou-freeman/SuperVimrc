@@ -19,7 +19,7 @@ Install Step
 4. open vim
 5. run `:PlugInstall` 
 
-Start
+How to Use
 ------------
 
 1. `cd /path/yourProject/`
