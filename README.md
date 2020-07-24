@@ -10,7 +10,7 @@ How the look
 ![vimrcLooks](https://chrischou2018.github.io/img/lib/vimrc.png)
 
 
-Deploy Step
+Install Step
 -------
 
 1. git clone this repository to your HOME/.vim_runtime
