@@ -34,24 +34,30 @@ Hot Key
 leader  key is `,`, so whenever you see <leader> it means `,`,
 
 [Open nerdtree](https://github.com/scrooloose/nerdtree)
-<leader>nn
+
+`<leader>nn`
 
 Open sub terminal
-<leader>tt
+
+`<leader>tt`
 
 [Do Project search](https://github.com/mileszs/ack.vim)
-<leader>g
+
+`<leader>g`
 
 Reopen last project search result
-<leader>cc 
+
+`<leader>cc`
 
 Save buffer
-<leader>w
+
+`<leader>w`
 
 [Jump to the file](https://github.com/kien/ctrlp.vim)
-<leader>j
+
+`<leader>j`
 
 [Buffer Exprole](https://github.com/vim-scripts/bufexplorer.zip)
-<leader>o
 
+`<leader>o`
 
