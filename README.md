@@ -3,6 +3,17 @@ custom Node IDE by VIM
 
 this project forked by [vimrc](https://github.com/amix/vimrc)
 
+MacOS need install MacVIM or official vim replace system vim
+
+Requirement
+-------------
+
+* python3
+
+* node >=8
+
+* [vim-plug](https://github.com/junegunn/vim-plug)
+
 
 How the look
 -------------
