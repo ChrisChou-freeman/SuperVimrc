@@ -61,3 +61,7 @@ Save buffer
 
 `<leader>o`
 
+Comment code
+
+`gcc`
+
