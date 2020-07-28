@@ -80,7 +80,6 @@ Comment code
 Include Main Plugins
 -----------------
 
-
 I recommend reading the docs of these plugins to understand them better. Each plugin provides a much better Vim experience!
 
 * [ack.vim](https://github.com/mileszs/ack.vim): Vim plugin for `the_silver_searcher` (ag) or ack -- a wicked fast grep
@@ -98,5 +97,5 @@ I recommend reading the docs of these plugins to understand them better. Each pl
 * [vim-indent-object](https://github.com/michaeljsmith/vim-indent-object): Defines a new text object representing lines of code at the same indent level. Useful for python/vim scripts
 * [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors): Sublime Text style multiple selections for Vim, CTRL+N is remapped to CTRL+S (due to YankRing)
 * [vim-yankstack](https://github.com/maxbrunsfeld/vim-yankstack): Maintains a history of previous yanks, changes and deletes
-* [vim-zenroom2](https://github.com/amix/vim-zenroom2) Remove all clutter and focus only on the essential. Similar to iA Writer or Write Room
-* [deoplete.nvim](https://github.com/Shougo/deoplete.nvim) asynchronous completion framework
+* [vim-zenroom2](https://github.com/amix/vim-zenroom2): Remove all clutter and focus only on the essential. Similar to iA Writer or Write Room
+* [deoplete.nvim](https://github.com/Shougo/deoplete.nvim): asynchronous completion framework
