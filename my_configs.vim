@@ -12,7 +12,6 @@ Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Plug 'tpope/vim-fugitive'
 Plug 'preservim/nerdtree'
-Plug 'mileszs/ack.vim'
 Plug 'dense-analysis/ale'
 Plug 'jiangmiao/auto-pairs'
 Plug 'jlanzarotta/bufexplorer'
@@ -45,4 +44,5 @@ Plug 'mattn/vim-gist'
 Plug 'leafgarland/typescript-vim'
 Plug 'Vimjas/vim-python-pep8-indent'
 Plug 'vim-airline/vim-airline'
+Plug 'dyng/ctrlsf.vim'
 call plug#end()
