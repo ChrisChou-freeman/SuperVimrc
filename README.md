@@ -14,6 +14,8 @@ Requirement
 
 * [vim-plug](https://github.com/junegunn/vim-plug)
 
+* [ack](https://github.com/beyondgrep/ack3)
+
 
 How the look
 -------------
