@@ -115,18 +115,6 @@ autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => ctrlsf.vim hug ack config 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-map <leader>g :CtrlSF 
-let g:ctrlsf_default_view_mode = 'compact'
-let g:ctrlsf_search_mode = 'async'
-let g:ctrlsf_auto_focus = {
-    \ "at": "done",
-    \ "duration_less_than": 1000
-    \ }
-
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Helper functions
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 func! DeleteTillSlash()

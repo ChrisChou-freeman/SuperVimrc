@@ -83,8 +83,7 @@ Include Main Plugins
 -----------------
 
 I recommend reading the docs of these plugins to understand them better. Each plugin provides a much better Vim experience!
-
-* [ack.vim](https://github.com/mileszs/ack.vim): Vim plugin for `the_silver_searcher` (ag) or ack -- a wicked fast grep
+* [ctrlsf.vim](https://github.com/dyng/ctrlsf.vim#features): An ack/ag/pt/rg powered code search and view tool
 * [bufexplorer.zip](https://github.com/vim-scripts/bufexplorer.zip): Quickly and easily switch between buffers. This plugin can be opened with `<leader+o>`
 * [ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim): Fuzzy file, buffer, mru and tag finder. It's mapped to `<Ctrl+F>`
 * [goyo.vim](https://github.com/junegunn/goyo.vim) and [vim-zenroom2](https://github.com/amix/vim-zenroom2):
