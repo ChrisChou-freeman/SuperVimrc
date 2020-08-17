@@ -1,11 +1,22 @@
 call plug#begin('~/.vim/plugged')
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => javascript auto complete plug 
+" => code auto completion plugin
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Plug 'Shougo/deoplete.nvim'
 Plug 'roxma/nvim-yarp'
 Plug 'roxma/vim-hug-neovim-rpc'
 Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => programmer 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
+Plug 'Vimjas/vim-python-pep8-indent'
+Plug 'nvie/vim-flake8'
+Plug 'plasticboy/vim-markdown'
+Plug 'chr4/nginx.vim'
+Plug 'digitaltoad/vim-pug'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => other useful plug 
@@ -17,9 +28,6 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'jlanzarotta/bufexplorer'
 Plug 'maxbrunsfeld/vim-yankstack'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'vim-scripts/mayansmoke'
-Plug 'chr4/nginx.vim'
-Plug 'pangloss/vim-javascript'
 Plug 'vim-scripts/tlib'
 Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'michaeljsmith/vim-indent-object'
@@ -34,14 +42,13 @@ Plug 'amix/vim-zenroom2'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-commentary'
 Plug 'airblade/vim-gitgutter'
-Plug 'morhetz/gruvbox'
-Plug 'nvie/vim-flake8'
-Plug 'digitaltoad/vim-pug'
 Plug 'tpope/tpope-vim-abolish'
-Plug 'plasticboy/vim-markdown'
-Plug 'mattn/vim-gist'
-Plug 'leafgarland/typescript-vim'
-Plug 'Vimjas/vim-python-pep8-indent'
 Plug 'vim-airline/vim-airline'
 Plug 'dyng/ctrlsf.vim'
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => colorscheme 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Plug 'morhetz/gruvbox'
+Plug 'vim-scripts/mayansmoke'
 call plug#end()
