@@ -10,7 +10,7 @@ Requirement
 
 * python3
 
-* node >= 8
+* node>=8
 
 * [vim-plug](https://github.com/junegunn/vim-plug)
 
