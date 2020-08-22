@@ -21,8 +21,7 @@ set guioptions-=l
 set guioptions-=L
 
 " Colorscheme
-colorscheme gruvbox 
-" colorscheme dracula 
+colorscheme PaperColor 
 set background=dark
 
 " Enable 256 colors palette in Gnome Terminal

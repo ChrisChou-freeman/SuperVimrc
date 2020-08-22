@@ -2,13 +2,10 @@ call plug#begin('~/.vim/plugged')
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => code auto completion plugin
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-Plug 'Shougo/deoplete.nvim'
-Plug 'roxma/nvim-yarp'
-Plug 'roxma/vim-hug-neovim-rpc'
-Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => programmer 
+" => programmer language
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
@@ -22,7 +19,6 @@ Plug 'digitaltoad/vim-pug'
 " => other useful plug 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Plug 'tpope/vim-fugitive'
-Plug 'preservim/nerdtree'
 Plug 'dense-analysis/ale'
 Plug 'jiangmiao/auto-pairs'
 Plug 'jlanzarotta/bufexplorer'
@@ -45,10 +41,14 @@ Plug 'airblade/vim-gitgutter'
 Plug 'tpope/tpope-vim-abolish'
 Plug 'vim-airline/vim-airline'
 Plug 'dyng/ctrlsf.vim'
+Plug 'preservim/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => colorscheme 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Plug 'morhetz/gruvbox'
 Plug 'vim-scripts/mayansmoke'
+Plug 'joshdick/onedark.vim'
+Plug 'NLKNguyen/papercolor-theme'
 call plug#end()

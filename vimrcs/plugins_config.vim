@@ -171,12 +171,12 @@ let g:gitgutter_enabled=0
 nnoremap <silent> <leader>d :GitGutterToggle<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => set auto completion with deplete
+" => set auto completion with coc-nvim 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:deoplete#enable_at_startup = 1
-let g:deoplete#sources#ternjs#types = 1
-let g:deoplete#sources#ternjs#depths = 1
-let g:neosnippet#enable_completed_snippet = 1
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
