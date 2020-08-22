@@ -42,7 +42,6 @@ Plug 'tpope/tpope-vim-abolish'
 Plug 'vim-airline/vim-airline'
 Plug 'dyng/ctrlsf.vim'
 Plug 'preservim/nerdtree'
-Plug 'Xuyuanp/nerdtree-git-plugin'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => colorscheme 
