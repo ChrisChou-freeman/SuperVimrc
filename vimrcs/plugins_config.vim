@@ -137,14 +137,6 @@ let g:ale_disable_lsp = 1
 let g:gitgutter_enabled=0
 nnoremap <silent> <leader>d :GitGutterToggle<cr>
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => set auto completion with coc-nvim 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-nmap <silent> gd <Plug>(coc-definition)
-nmap <silent> gy <Plug>(coc-type-definition)
-nmap <silent> gi <Plug>(coc-implementation)
-nmap <silent> gr <Plug>(coc-references)
-
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => ctrlsf.vim hug ack config 
@@ -191,4 +183,13 @@ call NERDTreeHighlightFile('css', 'cyan', 'none', 'cyan', '#151515')
 call NERDTreeHighlightFile('coffee', 'Red', 'none', 'red', '#151515')
 call NERDTreeHighlightFile('js', 'Red', 'none', '#ffa500', '#151515')
 call NERDTreeHighlightFile('php', 'Magenta', 'none', '#ff00ff', '#151515')
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => set auto completion with coc-nvim 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
 
