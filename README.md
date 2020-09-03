@@ -8,9 +8,9 @@ MacOS need install MacVIM or official vim replace system vim
 Requirement
 -------------
 
-* python3
-
 * node>=8
+
+* vim>=8.2
 
 * [vim-plug](https://github.com/junegunn/vim-plug)
 
@@ -99,4 +99,4 @@ I recommend reading the docs of these plugins to understand them better. Each pl
 * [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors): Sublime Text style multiple selections for Vim, CTRL+N is remapped to CTRL+S (due to YankRing)
 * [vim-yankstack](https://github.com/maxbrunsfeld/vim-yankstack): Maintains a history of previous yanks, changes and deletes
 * [vim-zenroom2](https://github.com/amix/vim-zenroom2): Remove all clutter and focus only on the essential. Similar to iA Writer or Write Room
-* [deoplete.nvim](https://github.com/Shougo/deoplete.nvim): asynchronous completion framework
+* [coc.nvim](https://github.com/neoclide/coc.nvim): asynchronous completion framework
