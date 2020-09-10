@@ -39,10 +39,8 @@ In my vim configuration, I use [coc.nvim](https://github.com/neoclide/coc.nvim) 
 How to Use
 ------------
 
-1. `cd /path/yourProject/`
-2. just run `vim`
-
-down...
+* `cd /path/yourProject/`
+*  just run `vim`
 
 
 Hot Key
