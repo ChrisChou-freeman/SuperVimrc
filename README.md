@@ -8,12 +8,9 @@ MacOS need install MacVIM or official vim replace system vim
 Requirement
 -------------
 
-* node>=8
-
+* node>=10.12
 * vim>=8.2
-
 * [vim-plug](https://github.com/junegunn/vim-plug)
-
 * [ack](https://github.com/beyondgrep/ack3)
 
 
