@@ -26,11 +26,19 @@ How the look
 Install Step
 -------
 
-1. git clone this repository to your HOME/.vim_runtime
-2. run `install_vimrc.sh`
+1. use git clone this repository to your HOME/.vim_runtime/
+2. cmd 'cd ~/.vim_runtime'
+2. run `./install_vimrc.sh`
 3. install [vim-plug](https://github.com/junegunn/vim-plug)
 4. open vim
-5. run `:PlugInstall` 
+5. type `:PlugInstall` 
+
+
+config your code completion plug
+---------------------------------
+
+In my vim configuration, I use [coc.nvim](https://github.com/neoclide/coc.nvim) as the code completion plug-in, you can also use other plug-ins, just replace the coc.vim in my_configs.vim and delete the "=> in vimrcs/plugins_config.vim set auto completion with coc-nvim" related vim script
+
 
 How to Use
 ------------
