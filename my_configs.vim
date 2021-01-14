@@ -49,6 +49,5 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Plug 'morhetz/gruvbox'
 Plug 'vim-scripts/mayansmoke'
-Plug 'joshdick/onedark.vim'
 Plug 'NLKNguyen/papercolor-theme'
 call plug#end()
