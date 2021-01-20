@@ -1,6 +1,33 @@
 call plug#begin('~/.vim/plugged')
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => code auto completion plugin
+" => other useful plug 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Plug 'tpope/vim-fugitive'
+Plug 'dense-analysis/ale'
+Plug 'jiangmiao/auto-pairs'
+Plug 'jlanzarotta/bufexplorer'
+Plug 'maxbrunsfeld/vim-yankstack'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'vim-scripts/tlib'
+Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'michaeljsmith/vim-indent-object'
+Plug 'groenewege/vim-less'
+" Plug 'garbas/vim-snipmate'
+Plug 'honza/vim-snippets'
+Plug 'tpope/vim-surround' 
+Plug 'terryma/vim-expand-region'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'junegunn/goyo.vim'
+Plug 'amix/vim-zenroom2'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/tpope-vim-abolish'
+Plug 'vim-airline/vim-airline'
+Plug 'dyng/ctrlsf.vim'
+Plug 'preservim/nerdtree'
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => code completion plugin
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
@@ -16,36 +43,13 @@ Plug 'chr4/nginx.vim'
 Plug 'digitaltoad/vim-pug'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => other useful plug 
+" => about git 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-Plug 'tpope/vim-fugitive'
-Plug 'dense-analysis/ale'
-Plug 'jiangmiao/auto-pairs'
-Plug 'jlanzarotta/bufexplorer'
-Plug 'maxbrunsfeld/vim-yankstack'
-Plug 'ctrlpvim/ctrlp.vim'
-Plug 'vim-scripts/tlib'
-Plug 'MarcWeber/vim-addon-mw-utils'
-Plug 'michaeljsmith/vim-indent-object'
-Plug 'groenewege/vim-less'
-Plug 'garbas/vim-snipmate'
-Plug 'honza/vim-snippets'
-Plug 'tpope/vim-surround' 
-Plug 'terryma/vim-expand-region'
-Plug 'terryma/vim-multiple-cursors'
-Plug 'junegunn/goyo.vim'
-Plug 'amix/vim-zenroom2'
-Plug 'tpope/vim-repeat'
-Plug 'tpope/vim-commentary'
-Plug 'airblade/vim-gitgutter'
-Plug 'tpope/tpope-vim-abolish'
-Plug 'vim-airline/vim-airline'
-Plug 'dyng/ctrlsf.vim'
-Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'airblade/vim-gitgutter'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => colorscheme 
+" => about colorscheme 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Plug 'morhetz/gruvbox'
 Plug 'vim-scripts/mayansmoke'
