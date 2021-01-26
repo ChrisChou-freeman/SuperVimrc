@@ -22,8 +22,8 @@ How the look
 Install Step
 -------
 
-1. git clone https://github.com/ChrisChou-freeman/SuperVimrc.git ~/.vim_runtime/ 
-2. cmd 'cd ~/.vim_runtime'
+1. `git clone https://github.com/ChrisChou-freeman/SuperVimrc.git ~/.vim_runtime/` 
+2. `cd ~/.vim_runtime`
 2. run `./install_vimrc.sh`
 3. install [vim-plug](https://github.com/junegunn/vim-plug)
 4. open vim
