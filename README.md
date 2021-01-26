@@ -46,9 +46,8 @@ iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
 2. `git clone https://github.com/ChrisChou-freeman/SuperVimrc.git ~/.vim_runtime/` 
 3. `cd ~/.vim_runtime`
 4. run `./install_vimrc.sh`
-5. install [vim-plug](https://github.com/junegunn/vim-plug)
-6. open vim
-7. type `:PlugInstall` 
+5. open vim
+6. type `:PlugInstall` 
 
 
 config your code completion plug
