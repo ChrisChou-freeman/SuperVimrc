@@ -9,7 +9,7 @@ Requirement
 -------------
 
 * node>=10.12
-* vim>=8.2
+* vim>=8.1
 * [vim-plug](https://github.com/junegunn/vim-plug)
 * [ack](https://github.com/beyondgrep/ack3)
 
@@ -22,7 +22,7 @@ How the look
 Install Step
 -------
 
-1. use git clone this repository to your HOME/.vim_runtime/
+1. git clone https://github.com/ChrisChou-freeman/SuperVimrc.git ~/.vim_runtime/ 
 2. cmd 'cd ~/.vim_runtime'
 2. run `./install_vimrc.sh`
 3. install [vim-plug](https://github.com/junegunn/vim-plug)
