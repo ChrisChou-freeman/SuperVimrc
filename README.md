@@ -21,13 +21,34 @@ How the look
 
 Install Step
 -------
+1. install vim-plug
+#### Vim
 
-1. `git clone https://github.com/ChrisChou-freeman/SuperVimrc.git ~/.vim_runtime/` 
-2. `cd ~/.vim_runtime`
-2. run `./install_vimrc.sh`
-3. install [vim-plug](https://github.com/junegunn/vim-plug)
-4. open vim
-5. type `:PlugInstall` 
+###### Unix
+
+```sh
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
+You can automate the process by putting the command in your Vim configuration
+file as suggested [here][auto].
+
+[auto]: https://github.com/junegunn/vim-plug/wiki/tips#automatic-installation
+
+###### Windows (PowerShell)
+
+```powershell
+iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
+    ni $HOME/vimfiles/autoload/plug.vim -Force
+```
+
+2. `git clone https://github.com/ChrisChou-freeman/SuperVimrc.git ~/.vim_runtime/` 
+3. `cd ~/.vim_runtime`
+4. run `./install_vimrc.sh`
+5. install [vim-plug](https://github.com/junegunn/vim-plug)
+6. open vim
+7. type `:PlugInstall` 
 
 
 config your code completion plug
