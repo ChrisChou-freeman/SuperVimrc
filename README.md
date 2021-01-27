@@ -1,7 +1,7 @@
 custom Node IDE by VIM
 ==============================
 
-this project forked by [vimrc](https://github.com/amix/vimrc)
+this project based by [vimrc](https://github.com/amix/vimrc)
 
 MacOS need install MacVIM or official vim replace system vim
 
