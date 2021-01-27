@@ -48,6 +48,7 @@ iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
 4. run `./install_vimrc.sh`
 5. open vim
 6. type `:PlugInstall` 
+7. reopen vim
 
 
 config your code completion plug
