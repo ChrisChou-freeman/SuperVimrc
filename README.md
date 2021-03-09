@@ -16,7 +16,7 @@ Requirement
 How the look
 -------------
 
-![vimrcLooks](https://chrischou2018.github.io/img/lib/vimrc.png)
+![vimrcLooks](https://chrischou-freeman.github.io/img/lib/vimrc.png)
 
 
 Install Step
