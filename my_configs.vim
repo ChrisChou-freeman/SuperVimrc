@@ -49,7 +49,5 @@ Plug 'tpope/vim-fugitive'
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => about colorscheme 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-Plug 'morhetz/gruvbox'
-Plug 'vim-scripts/mayansmoke'
 Plug 'NLKNguyen/papercolor-theme'
 call plug#end()
