@@ -61,9 +61,22 @@ set up coc-nvim
 
 run `:CocInstall coc-tsserver` install coc.nvim plugin provide rich features like VSCode for javascript & typescript
 
-use ALE and coc.nvim together
-1. Open your coc.nvim configuration file with :CocConfig and add "diagnostic.displayByAle": true to your settings.
+set up ALE and coc.nvim work together
+1. Open your coc.nvim configuration file with :CocConfig and add 
+```json
+"diagnostic": {
+  "displayByAle": true
+}
+```
 2. Add let g:ale_disable_lsp = 1 to your vimrc file, before plugins are loaded.
+
+set up Set the Q key to exit the list,
+1. Open your coc.nvim configuration file with :CocConfig and add 
+```json 
+"list.normalMappings": {
+  "q": "do:exit"
+}
+```
 
 
 How to Use
