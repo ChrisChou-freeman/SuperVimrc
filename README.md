@@ -43,12 +43,12 @@ iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
     ni $HOME/vimfiles/autoload/plug.vim -Force
 ```
 
-1. `git clone https://github.com/ChrisChou-freeman/SuperVimrc.git ~/.vim_runtime/` 
-2. `cd ~/.vim_runtime`
-3. run `./install_vimrc.sh`
-4. open vim
-5. type `:PlugInstall` 
-6. reopen vim
+2. `git clone https://github.com/ChrisChou-freeman/SuperVimrc.git ~/.vim_runtime/` 
+3. `cd ~/.vim_runtime`
+4. run `./install_vimrc.sh`
+5. open vim
+6. type `:PlugInstall` 
+7. reopen vim
 
 
 config your code completion plug
